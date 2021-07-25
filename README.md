@@ -20,7 +20,7 @@ However, please note that this application has not been tested on a Windows plat
 
 1. Considered it to be a console based application
 2. Wrote comprehensive Integration Test to cover scenarios.  Hence, did not write unit tests per each class.  However, I have added unit tests to test certain classes.
-3. Built the system with the mindset that it can return current score in real world, instead of waiting till the game finishes to calculate score.
+3. Built the system with the mindset that it can return current score in real time, instead of waiting till the game finishes to calculate score.
 
 ## How to
 
