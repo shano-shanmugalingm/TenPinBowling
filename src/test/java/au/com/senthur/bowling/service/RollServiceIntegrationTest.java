@@ -121,4 +121,20 @@ public class RollServiceIntegrationTest {
         assertEquals(14, rollService.getTotalScore(gameLine));
     }
 
+    @Test
+    void rollBall_shouldReturn10Points_whenNineteenMissesOneSpareAndBonusMiss() {
+        GameLine gameLine = new GameLine();
+
+        for (int count = 1 ; count <= 19 ; count ++) {
+            rollService.rollBall("-", gameLine);
+        }
+
+        rollService.rollBall("/", gameLine);
+        rollService.rollBall("-", gameLine);
+
+        assertTrue(gameLine.isGameOver());
+        assertEquals(10, rollService.getTotalScore(gameLine));
+
+    }
+
 }

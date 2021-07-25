@@ -10,6 +10,7 @@ All Unit and Integration Tests are written using JUnit - 5.
 
 1. Clean and Build: ./gradlew clean build
 2. Unit and Integration Tests: ./gradlew clean test
+3. Code Coverage: ./gradlew jacocoTestReport   
 3. Run application: ./gradlew run
 
 The './gradlew' command will only run in Unix Systems.  In order to use in Windows please replace the './gradlew' with 'gradlew'.
