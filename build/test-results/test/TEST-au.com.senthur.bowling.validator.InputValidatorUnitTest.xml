@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="au.com.senthur.bowling.validator.InputValidatorUnitTest" tests="24" skipped="0" failures="0" errors="0" timestamp="2021-07-25T04:17:02" hostname="192-168-1-113.tpgi.com.au" time="0.057">
+  <properties/>
+  <testcase name="[1] " classname="au.com.senthur.bowling.validator.InputValidatorUnitTest" time="0.025"/>
+  <testcase name="[1] null" classname="au.com.senthur.bowling.validator.InputValidatorUnitTest" time="0.001"/>
+  <testcase name="1 : valid input: 'X'" classname="au.com.senthur.bowling.validator.InputValidatorUnitTest" time="0.001"/>
+  <testcase name="2 : valid input: '/'" classname="au.com.senthur.bowling.validator.InputValidatorUnitTest" time="0.0"/>
+  <testcase name="3 : valid input: '-'" classname="au.com.senthur.bowling.validator.InputValidatorUnitTest" time="0.0"/>
+  <testcase name="4 : valid input: '1'" classname="au.com.senthur.bowling.validator.InputValidatorUnitTest" time="0.0"/>
+  <testcase name="5 : valid input: '2'" classname="au.com.senthur.bowling.validator.InputValidatorUnitTest" time="0.001"/>
+  <testcase name="6 : valid input: '3'" classname="au.com.senthur.bowling.validator.InputValidatorUnitTest" time="0.001"/>
+  <testcase name="7 : valid input: '4'" classname="au.com.senthur.bowling.validator.InputValidatorUnitTest" time="0.001"/>
+  <testcase name="8 : valid input: '5'" classname="au.com.senthur.bowling.validator.InputValidatorUnitTest" time="0.001"/>
+  <testcase name="9 : valid input: '6'" classname="au.com.senthur.bowling.validator.InputValidatorUnitTest" time="0.0"/>
+  <testcase name="10 : valid input: '7'" classname="au.com.senthur.bowling.validator.InputValidatorUnitTest" time="0.001"/>
+  <testcase name="11 : valid input: '8'" classname="au.com.senthur.bowling.validator.InputValidatorUnitTest" time="0.001"/>
+  <testcase name="12 : valid input: '9'" classname="au.com.senthur.bowling.validator.InputValidatorUnitTest" time="0.0"/>
+  <testcase name="validateInput_shouldReturnFalse_whenInputLengthIsGreaterThanOne()" classname="au.com.senthur.bowling.validator.InputValidatorUnitTest" time="0.001"/>
+  <testcase name="1 : invalid input: '0'" classname="au.com.senthur.bowling.validator.InputValidatorUnitTest" time="0.0"/>
+  <testcase name="2 : invalid input: 'A'" classname="au.com.senthur.bowling.validator.InputValidatorUnitTest" time="0.0"/>
+  <testcase name="3 : invalid input: 'B'" classname="au.com.senthur.bowling.validator.InputValidatorUnitTest" time="0.0"/>
+  <testcase name="4 : invalid input: 'C'" classname="au.com.senthur.bowling.validator.InputValidatorUnitTest" time="0.001"/>
+  <testcase name="5 : invalid input: 'Y'" classname="au.com.senthur.bowling.validator.InputValidatorUnitTest" time="0.001"/>
+  <testcase name="6 : invalid input: '%'" classname="au.com.senthur.bowling.validator.InputValidatorUnitTest" time="0.0"/>
+  <testcase name="7 : invalid input: '*'" classname="au.com.senthur.bowling.validator.InputValidatorUnitTest" time="0.0"/>
+  <testcase name="8 : invalid input: 'Z'" classname="au.com.senthur.bowling.validator.InputValidatorUnitTest" time="0.0"/>
+  <testcase name="9 : invalid input: 'D'" classname="au.com.senthur.bowling.validator.InputValidatorUnitTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="au.com.senthur.bowling.service.RollServiceIntegrationTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-07-25T04:17:02" hostname="192-168-1-113.tpgi.com.au" time="0.009">
+  <properties/>
+  <testcase name="rollBall_shouldReturns14Points_whenGameConsistsTwentyOneRollsNineteenMissesOneSpareOneBonusOfFour()" classname="au.com.senthur.bowling.service.RollServiceIntegrationTest" time="0.004"/>
+  <testcase name="rollBall_shouldReturn150Points_whenGameConsistsTwentyOneRollsTenPairsOfFiveAndSpareWithFinalFive()" classname="au.com.senthur.bowling.service.RollServiceIntegrationTest" time="0.0"/>
+  <testcase name="rollBall_shouldReturn300Points_whenGameConsistsTwelveRollTwelveStrikes()" classname="au.com.senthur.bowling.service.RollServiceIntegrationTest" time="0.0"/>
+  <testcase name="rollBall_shouldReturn135Points_whenGameConsistsSixteenRollsFourStrikesOnePairOfNinePairOfFiveMisses()" classname="au.com.senthur.bowling.service.RollServiceIntegrationTest" time="0.0"/>
+  <testcase name="rollBall_shouldReturn48Points_whenGameConsistsLineConsistNineteenRollsTwoStrikesFourteenMissesOneStrikeTwoBonusesOfFourEach()" classname="au.com.senthur.bowling.service.RollServiceIntegrationTest" time="0.0"/>
+  <testcase name="getTotalScore_shouldThrowException_whenGameLineIsNull()" classname="au.com.senthur.bowling.service.RollServiceIntegrationTest" time="0.001"/>
+  <testcase name="rollBall_shouldThrowException_whenGameLineIsNull()" classname="au.com.senthur.bowling.service.RollServiceIntegrationTest" time="0.0"/>
+  <testcase name="rollBall_shouldReturn90Points_whenGameConsistsTwentyRollsTenPairsOfNineAndMiss()" classname="au.com.senthur.bowling.service.RollServiceIntegrationTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

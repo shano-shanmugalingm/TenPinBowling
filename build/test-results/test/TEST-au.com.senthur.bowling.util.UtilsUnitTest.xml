@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="au.com.senthur.bowling.util.UtilsUnitTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-07-25T04:17:02" hostname="192-168-1-113.tpgi.com.au" time="0.003">
+  <properties/>
+  <testcase name="[1] " classname="au.com.senthur.bowling.util.UtilsUnitTest" time="0.001"/>
+  <testcase name="getNum_shouldReturnZero_whenInputIsNotNumber()" classname="au.com.senthur.bowling.util.UtilsUnitTest" time="0.001"/>
+  <testcase name="getNum_shouldReturnConvertedValue_whenInputIsValidNumber()" classname="au.com.senthur.bowling.util.UtilsUnitTest" time="0.0"/>
+  <testcase name="[1] null" classname="au.com.senthur.bowling.util.UtilsUnitTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
