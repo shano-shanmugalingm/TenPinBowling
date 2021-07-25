@@ -1,4 +1,4 @@
-#American Ten-Pin Bowling Application
+# American Ten-Pin Bowling Application
 
 The Application uses Gradle 7.11 as the Build System.  However to run the application or to run any of the below commands we do not need to install Gradle.
 
