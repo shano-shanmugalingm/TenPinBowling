@@ -45,7 +45,8 @@ When there are no more rolls it will return the total score.
 
 The main class is 'au.com.senthur.bowling.Application'.  This will start the application up.
 
-RollService.java is responsible for governing the game.  It will use a 'GameLine' and the 'user input' to handle and calculate the score.  
+RollService.java is responsible for governing the game.  It will use a 'GameLine' and the 'user input' to handle and calculate the score.  Scores are calculated per each 'Frame'.  As this will give us the flexibility to get score on the fly.
+
 There are knock down handlers that are responsible to handle each knock down type. This will be injected at runtime polymorphically to calculate the score, retries and bonuses.  These handlers are obtained dynamically using a Handler Factory.
 Identified Knock Down Types are:
 
